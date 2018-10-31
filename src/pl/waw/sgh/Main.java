@@ -1,11 +1,14 @@
 package pl.waw.sgh;
 
 public class Main {
+    public static int sum(int parA, int parB) {
+        int sum = parA + parB;
+        return sum;
+    }
 
     public static void main(String[] args) {
-        System.out.println("Hello!!!");
-        if (args.length > 0) {
-            System.out.println(args[0]);
-        }
+        int a = 3;
+        int b = 5;
+        System.out.println("sum is " + sum(a, b));
     }
 }

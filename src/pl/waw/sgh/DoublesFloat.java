@@ -1,6 +1,8 @@
+
 package pl.waw.sgh;
 
 public class DoublesFloat {
+
 
     public static void main(String[] args) {
         Double d1 = 3223535d;
@@ -8,7 +10,7 @@ public class DoublesFloat {
 
         System.out.println(d1 * d2);
 
-        double d2 = 35135;
+        //double d2 = 35135;
         float f2 = 564654;
 
         float f1 = d1.floatValue();
