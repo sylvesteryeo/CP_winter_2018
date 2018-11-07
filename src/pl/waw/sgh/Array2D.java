@@ -38,9 +38,9 @@ public class Array2D {
         }
         ;
         column_sum_arr[5] = total_sum;
-        //System.out.println(Arrays.toString(column_sum_arr));
-        for (int i = 0; i < column_sum_arr.length; i++) {
-            System.out.print(column_sum_arr[i] + " ");
-        }
+        System.out.println(Arrays.toString(column_sum_arr));
+        //for (int i = 0; i < column_sum_arr.length; i++) {
+        //  System.out.print(column_sum_arr[i] + " ");
+        //}
     }
 }
