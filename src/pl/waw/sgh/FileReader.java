@@ -28,6 +28,24 @@ public class FileReader {
         }
     }
 
+    public static class Rectangle {
+
+        double parA = 0;
+        double parB = 0;
+
+        void setParams(double parA, double parB) {
+            this.parA = parA;
+            this.parB = parB;
+        }
+
+        double calculateSurface() {
+            return parA * parB;
+        }
+
+        public String toString() {
+            return getClass().getSimpleName() + "[" + parA + "," + parB + "], surf:" + calculateSurface();
+        }
+    }
 }
 
 /*
